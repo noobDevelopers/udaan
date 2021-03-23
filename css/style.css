@@ -5308,6 +5308,7 @@ color:#606060;
 }
 
 .wm{
+
 	width:100%;
 	position:relative;
 	font-size:200px;
@@ -5318,9 +5319,33 @@ color:#606060;
 	-ms-user-select:none;user-select:none;
 }
 
+
+
 .wm.dark{
 	color:rgba(255,255,255,.1);
 }
+.col-md-3{
+	display: inline-block;
+	margin-left:-4px;
+  }
+  .col-md-3 img{
+	width:100%;
+	height:auto;
+  }
+  body .carousel-indicators li{
+	background-color:black;
+  }
+  body .carousel-indicators{
+	bottom: 0;
+  }
+  body .carousel-control-prev-icon,
+  body .carousel-control-next-icon{
+	background-color:black;
+  }
+  body .no-padding{
+	padding-left: 0;
+	padding-right: 0;
+	 }
 
 .wm.dark.wm-border{
 	font-size:220px;
